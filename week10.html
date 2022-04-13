@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>40 count Review</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="week10.css">
+</head>
+<body class="container">
+   
+    <img class="movie poster" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJApnr9b8RCQjrOr0YpzqMTY1xXWNrfWHgq0VvNxVNUaG9XyrV" height= 360px  alt="" srcset="" textalign="center" >
+   
+   
+    <div class="Review">
+        <div class="card body">
+            <h2>Movie Review</h2>
+            <div class="row">
+                <div class="col-med-3">
+                    <div class="form-group">
+                        <label for="new-review-name">name</label>
+                        <input type="text" class="form-control" id="new-review-name">
+                    </div>
+                    <div class="col-med-3">
+                        <div class="form-group">
+                            <label for="new-rating-name">Rating</label>
+                            <input type="number" class="form-control" id="new-rating-number" max="10">
+                        </div>               
+                    </div>
+                    <div class="col-med-3">
+                        <div class="form-group">
+                            <label for="new-review-text">Review</label>
+                            <input type="text" class="form-control" id="new-review-text" maxlength = "40">
+                        </div>
+   
+        <div class="cast-body">
+            <h2>Favorite Character</h2>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-cast">Actor</label>
+                        <input type="text" class="form-control" id="new-cast">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-role">Role</label>
+                        <input type="text" class="form-control" id="new-role">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <button id="add" class="btn btn-primary form control"> create</button>
+    </div>
+    
+    <table id="list" class="table table-dark table-stripped">
+        <tr>
+            <th>Movie</th>
+            <th>Reviewer Name</th>
+            <th>Rating</th>
+            <th>Review</th>
+            <th>Actor</th>
+            <th>Role</th>
+        </tr>
+    </table>
+
+
+
+
+
+
+
+
+    <script src="week10.js"></script>
+</body>
+</html>
